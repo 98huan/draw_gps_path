@@ -1,0 +1,9 @@
+#ifndef DRAW_GPS_PATH_GLOBAL_DEFINATION_H_IN_
+#define DRAW_GPS_PATH_GLOBAL_DEFINATION_H_IN_
+
+#include <string>
+
+namespace draw_gps_path {
+const std::string WORK_SPACE_PATH = "@WORK_SPACE_PATH@";
+}
+#endif

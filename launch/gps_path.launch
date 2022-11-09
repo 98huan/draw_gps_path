@@ -1,0 +1,4 @@
+<launch>
+<node pkg="rviz"  type="rviz"  name="rviz"  args="-d $(find draw_gps_path)/rviz/zh_gps_path.rviz"></node>
+<node pkg="draw_gps_path"  type="main_node"  name="main_node"  output="screen"></node>
+</launch>
